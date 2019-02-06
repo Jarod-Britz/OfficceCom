@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    margin: 0 auto;
+}
+div{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+i{
+    font-size: 200px;
+    padding: 5%;
+    color: teal;
+}
+input{
+    width: 300px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 3%;
+    border-radius: 12px;
+    border: solid 2px teal;
+}
+button{
+    width: 90px;
+    height: 40px;
+    border-radius: 12px;
+    border: solid 2px teal;
+}
+button:hover{
+    background-color: grey;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 1fr;
+    margin: 0 auto;
+    padding: 3%;
+}
+fieldset{
+    margin: 3%;
+    border: solid 2px teal;
+}
