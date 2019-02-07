@@ -7,16 +7,17 @@ div{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
 }
-i{
-    font-size: 200px;
-    padding: 5%;
-    color: teal;
+img{
+    width: 300px;
+    height: 300px;
+    padding: 4%;
+    margin: 0 auto;
 }
 input{
     width: 300px;
     height: 40px;
     margin: 0 auto;
-    margin-top: 3%;
+    margin-top: 2%;
     border-radius: 12px;
     border: solid 2px teal;
 }
@@ -34,7 +35,7 @@ button:hover{
     grid-template-columns: 100px 100px;
     grid-template-rows: 1fr;
     margin: 0 auto;
-    padding: 3%;
+    padding: 2%;
 }
 fieldset{
     margin: 3%;

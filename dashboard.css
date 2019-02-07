@@ -1,7 +1,14 @@
 body {
     font-family: "Lato", sans-serif;
   }
-  
+  a{
+    cursor: pointer;
+  }
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr;
+  }
   .imgUser{
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -12,13 +19,33 @@ body {
       margin-left: 40%;
       color: teal;
   }
-  .closebtn:checked{
-        color: white;
+  fieldset{
+    margin-left: 16%;
+    border: solid 2px teal;
+    z-index: 0;
   }
-  
+  h1{
+    color: teal;
+  }
+  img{
+    width: 40px;
+    height: 40px;
+    padding: 25%;
+  }
+  .logo{
+    display: grid;
+    grid-template-columns: 50px 130px;
+    grid-template-rows: 1fr;
+    
+  }
+  h2{
+    text-align: right;
+    margin-right: 3%;
+  }
   p{
     font-size: 18px;
     color: teal;
+    margin: 5% 0 0 0;
   }
   .sidenav {
     height: 100%;
@@ -30,6 +57,8 @@ body {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    border: solid 2px teal;
+    background-color: white;
   }
   
   .sidenav a {
