@@ -1,0 +1,109 @@
+body {
+    font-family: 'Raleway', sans-serif;
+  }
+  span{
+    font-size:30px;
+    cursor:pointer;
+    margin-top: 3%;
+    margin-left: 5%;
+  }
+  a{
+    cursor: pointer;
+  }
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr;
+  }
+  .imgUser{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 10%;
+  }
+  .imgUser i,p{
+    color: black;
+  }
+  hr{
+    width: 75%;
+  }
+  i{
+      font-size: 45px;
+      margin-left: 40%;
+      color: teal;
+  }
+  fieldset{
+    margin-left: 16%;
+    margin-right: 16%;
+    border: solid 1px teal;
+    z-index: 0;
+  }
+  h1{
+    color:grey;
+    text-align: center
+  }
+  img{
+    width: 40px;
+    height: 40px;
+    padding: 8%;
+    margin: 30% 0% 8% 33%;
+    
+  }
+  .logo{
+    display: grid;
+    grid-template-columns: 50px 130px;
+    grid-template-rows: 1fr;
+    margin: 0 auto;
+    margin-right: 1%;
+    
+  }
+  h2{
+    text-align: right;
+    margin-right: 3%;
+  }
+  p{
+    font-size: 18px;
+    font-family: 'Righteous', cursive;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    
+    background-color: white;
+    box-shadow: lightgrey 0px 14px 17px 10px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    margin-top: 10%;
+    
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
